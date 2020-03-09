@@ -51,3 +51,5 @@ public class MainActivity extends AppCompatActivity {
 
     }
 }
+
+//Parsing out from the result data the actual movies
