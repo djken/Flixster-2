@@ -14,7 +14,7 @@
 
 Portrait
 
-![Portrait Walkthrough](https://i.imgur.com/RZGs9q8.gif)
+![Portrait Walkthrough](https://i.imgur.com/viha9fs.gif)
 
 Landscape
 
