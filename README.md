@@ -14,10 +14,12 @@
 
 Portrait
 
-![Portrait Walkthrough](https://i.imgur.com/viha9fs.gif)
+![Portrait Walkthrough](https://i.imgur.com/rKijKin.gif)
 
 
+Landscape
 
+![Landscape Walkthrough](https://i.imgur.com/hAR4Aj9.gif)
 
 ### Notes
 Describe any challenges encountered while building the app.
