@@ -12,6 +12,8 @@ import org.parceler.Parcels;
 
 public class DetailActivity extends AppCompatActivity {
 
+    private static final String YOU_API_KEY = "AIzaSyASZSgdNMPUsZJnflhwOs_ZG3aswJx-DPc";
+
     TextView tvTitle;
     TextView tvOverview;
     RatingBar ratingBar;
