@@ -47,7 +47,7 @@ public class DetailActivity extends YouTubeBaseActivity {
         ratingBar.setRating((float) movie.getRating());
 
         AsyncHttpClient client = new AsyncHttpClient();
-        client.get(String.format(VIDEOS_URL, 209112), new JsonHttpResponseHandler() {
+        client.get(String.format(VIDEOS_URL, movie.getMovieId()), new JsonHttpResponseHandler() {
             @Override
             public void onSuccess(int statusCode, Headers headers, JSON json) {
                 try {
