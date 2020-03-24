@@ -7,7 +7,6 @@ import android.widget.RatingBar;
 import android.widget.TextView;
 
 import com.example.flixster.models.Movie;
-
 import org.parceler.Parcels;
 
 public class DetailActivity extends AppCompatActivity {
