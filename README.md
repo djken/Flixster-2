@@ -19,8 +19,7 @@
 
 ### App Walkthough GIF
 
-<img src="YOUR_GIF_URL_HERE" width=250><br>
-
+![Walkthough](https://i.imgur.com/RC2z1b2.gif)
 ### Notes
 
 Describe any challenges encountered while building the app.
