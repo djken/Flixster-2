@@ -13,7 +13,8 @@
         android:layout_width="match_parent"
         android:layout_height="220dp"
         android:layout_below="@+id/tvTitle"
-        android:layout_marginTop="22dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="2dp"
         android:layout_marginStart="22dp"
         android:layout_marginEnd="22dp"
         android:layout_gravity="center_horizontal|center_vertical"
@@ -38,7 +39,7 @@
         android:layout_centerHorizontal="true"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="22dp"
+        android:layout_marginTop="12dp"
         android:textColor="@color/txtTitle"
         android:textSize="22sp"
         android:textAlignment="center"
@@ -52,8 +53,14 @@
         android:layout_marginStart="22dp"
         android:layout_marginTop="22dp"
         android:layout_marginEnd="22dp"
+        android:layout_marginBottom="22dp"
+        android:textAlignment="center"
         android:textColor="@color/txtColor"
         tools:text="Based on the global blockbuster videogame franchise from Sega, Sonic the Hedgehog tells the story of the world’s speediest hedgehog as he embraces his new home on Earth. In this live-action adventure comedy, Sonic and his new best friend team up to defend the planet from the evil genius Dr. Robotnik and his plans for world domination."
         />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height=".5dp"
+        android:background="#818181" />
 
 </RelativeLayout>
