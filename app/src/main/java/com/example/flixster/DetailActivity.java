@@ -19,6 +19,8 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.parceler.Parcels;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
 import okhttp3.Headers;
 
 public class DetailActivity extends YouTubeBaseActivity {
@@ -26,20 +28,20 @@ public class DetailActivity extends YouTubeBaseActivity {
     private static final String YOUTUBE_API_KEY = "AIzaSyASZSgdNMPUsZJnflhwOs_ZG3aswJx-DPc";
     public static final String VIDEOS_URL = "https://api.themoviedb.org/3/movie/%d/videos?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed";
 
+    @BindView(R.id.tvTitle)
     TextView tvTitle;
+    @BindView(R.id.tvOverview)
     TextView tvOverview;
+    @BindView(R.id.ratingBar)
     RatingBar ratingBar;
+    @BindView(R.id.player)
     YouTubePlayerView youTubePlayerView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
-
-        tvTitle = findViewById(R.id.tvTitle);
-        tvOverview = findViewById(R.id.tvOverview);
-        ratingBar = findViewById(R.id.ratingBar);
-        youTubePlayerView = findViewById(R.id.player);
+        ButterKnife.bind(this);
 
         Movie movie = Parcels.unwrap(getIntent().getParcelableExtra("movie"));
         tvTitle.setText(movie.getTitle());
@@ -61,7 +63,6 @@ public class DetailActivity extends YouTubeBaseActivity {
 
                 } catch (JSONException e) {
                     Log.e("DetailActivity", "Failed to parse JSON");
-
                 }
             }
 
@@ -70,8 +71,6 @@ public class DetailActivity extends YouTubeBaseActivity {
 
             }
         });
-
-
     }
 
     private void initializeYoutube(final String youtubeKey) {

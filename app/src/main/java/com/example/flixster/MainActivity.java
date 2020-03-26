@@ -19,6 +19,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
+import butterknife.ButterKnife;
 import okhttp3.Headers;
 
 public class MainActivity extends AppCompatActivity {
@@ -62,20 +63,12 @@ public class MainActivity extends AppCompatActivity {
                 } catch (JSONException e) {
                     Log.e(TAG, "Hit json exception", e);
                 }
-
             }
 
             @Override
             public void onFailure(int statusCode, Headers headers, String response, Throwable throwable) {
                 Log.d(TAG, "onFailure");
-
             }
         });
-
-
     }
-
-
 }
-
-//Parsing out from the result data the actual movies
