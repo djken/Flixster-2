@@ -26,7 +26,7 @@
         android:layout_height="90dp"
         android:layout_below="@id/cover_photo"
         android:adjustViewBounds="true"
-        android:src="@drawable/play-button"
+        android:background="@drawable/playbutton"
         android:translationY="140dp"
         android:translationX="140dp"
         tools:ignore="UnknownId"
