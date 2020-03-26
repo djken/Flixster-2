@@ -6,19 +6,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".DetailActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/bgColor">
 
     <com.google.android.youtube.player.YouTubePlayerView
         android:id="@+id/player"
         android:layout_width="match_parent"
-        android:layout_height="250dp" />
+        android:layout_height="250dp"/>
 
     <TextView
         android:id="@+id/tvTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="The Invisible Man"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        android:textColor="@color/txtColor"/>
 
     <RatingBar
         android:id="@+id/ratingBar"
@@ -27,11 +29,21 @@
         android:layout_height="wrap_content"
         android:isIndicator="true"
         android:numStars="10"
-        android:rating="7.5" />
+        android:rating="7.5"
+        android:progressTint="#ffff8800"
+        />
 
     <TextView
         android:id="@+id/tvOverview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/txtColor"
         android:text="When Cecilia's abusive ex takes his own life and leaves her his fortune, she suspects his death was a hoax. As a series of coincidences turn lethal, Cecilia works to prove that she is being hunted by someone nobody can see." />
+
+    <ImageView
+        android:id="@+id/ivProfile"
+        android:transitionName="profile"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="380dp" />
 </LinearLayout>

@@ -7,6 +7,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -52,7 +53,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
         // Bind the movie data into the VH
         holder.bind(movie);
 
-        
+
     }
 
     // Returns the total count of items in a list.
@@ -63,7 +64,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
 
     public class ViewHolder extends RecyclerView.ViewHolder{
 
-        RelativeLayout container;
+        FrameLayout container;
         TextView tvTitle;
         TextView tvOverview;
         ImageView ivPoster;
@@ -101,7 +102,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
                      i.putExtra("movie", Parcels.wrap(movie));
                     context.startActivity(i);
 
-                   // Toast.makeText(context,   movie.getTitle(), Toast.LENGTH_SHORT).show();
+
                 }
             });
 

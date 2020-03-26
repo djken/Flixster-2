@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         RecyclerView rvMovies = findViewById(R.id.rvMovies);
         movies = new ArrayList<>();
 
@@ -62,7 +63,6 @@ public class MainActivity extends AppCompatActivity {
                     Log.e(TAG, "Hit json exception", e);
                 }
 
-
             }
 
             @Override
@@ -72,7 +72,10 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
     }
+
+
 }
 
 //Parsing out from the result data the actual movies
