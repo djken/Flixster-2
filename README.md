@@ -21,7 +21,7 @@
 
 1. Portrait
 
-    ![Walkthrough](landWalk.gif)
+    ![Walkthrough](PortraitWalkthrough.gif)
 
 2. Landscape
 
