@@ -19,7 +19,13 @@
 
 ### App Walkthough GIF
 
-![Walkthrough](https://i.imgur.com/McT71j3.gif)
+1. Portrait
+
+    ![Walkthrough](https://i.imgur.com/McT71j3.gif)
+
+2. Landscape
+
+    ![LandWalk](LandSWalkthrough.gif)
 ### Notes
 
 Describe any challenges encountered while building the app.
