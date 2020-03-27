@@ -21,7 +21,7 @@
 
 1. Portrait
 
-    ![Walkthrough](https://i.imgur.com/McT71j3.gif)
+    ![Walkthrough](landWalk.gif)
 
 2. Landscape
 
